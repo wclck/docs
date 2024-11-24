@@ -6,7 +6,8 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			site: 'https://wclck.github.io/docs/',
+			title: 'weclick docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
